@@ -62,8 +62,8 @@ class Garden:
         self.fruitLossChance += squirrel.fruitDecreaseChance
 
     def rain(self):
-        self.waterLevel += 40
-        self.fruitTree.fruitTreeWaterCounter += 40
+        self.waterLevel += 30
+        self.fruitTree.fruitTreeWaterCounter += 30
     
     def createFruitTree(self):
         self.fruitTree = FruitTree()
@@ -89,7 +89,7 @@ class FruitTree(Tree):
 class Squirrel:
     def __init__(self):
         self.fruitDecreaseChance = 5
-        
+
 
 # Simulation loop
 ourGarden = Garden()
@@ -110,7 +110,7 @@ while len(ourGarden.trees) < 10 and ourGarden.fruitTree.numFruit < 10: # and our
         print('It rained! Water levels increased.')
 
     #seeing if a new tree was added to the garden
-    if newTree % 4 == 0 and newTree > 0:
+    if newTree % 5 == 0 and newTree > 0:
         ourGarden.addTree()
         print('A new tree has blossomed!')
 
@@ -167,10 +167,10 @@ while len(ourGarden.trees) < 10 and ourGarden.fruitTree.numFruit < 10: # and our
     print('Fruits: %i ' % ourGarden.fruitTree.numFruit)
     
     #break out of while loop because the garden has been overrun by squirrels and woodchucks
-    if len(ourGarden.woodchucks) >= 15 and len(ourGarden.squirrels) >= 15:
+    if len(ourGarden.woodchucks) >= 12 and len(ourGarden.squirrels) >= 12:
         break
 
-    input('Enter a key to continue: ')
+    #input('Enter a key to continue: ')
     i += 1
 # end while loop
 
