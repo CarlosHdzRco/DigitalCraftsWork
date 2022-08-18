@@ -1,0 +1,287 @@
+body {
+    background-color: white;
+}
+
+/* Navbar */
+.navbar {
+    top: 0;
+    background-color: white;
+    padding-top: 0px;
+    position: sticky;
+    z-index: +1;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+
+}
+
+#linkedin-navbar-logo {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    
+    margin-left: 31%;
+    margin-right: auto;
+    display: inline-block;
+}
+
+#form {
+    position: relative;
+    margin-left: 2%;
+    display: inline-block;
+    top: -12px;
+}
+
+/* content section */
+.content {
+    display: flex;
+    font-family:sans-serif;
+    background-color: #f3f2ee;
+    padding-top: 50px;
+
+
+}
+
+
+.main {
+    order: 2;
+    background-color: #f3f2ee;
+
+    position: relative;
+}
+
+/* First Block */
+
+.pictures {
+    position: relative;
+    padding-bottom: 45px;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-left: .5px solid lightgray;
+    border-right: .5px solid lightgray;
+
+}
+
+.name-info {
+    padding-bottom: 120px;
+    border-bottom: .5px solid lightgray;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: white;
+    margin-bottom: -13px;
+}
+
+#background-image{
+    object-fit: cover;
+    position:relative;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border: .5px solid lightgray;
+    width: 100%;
+    height: 200px;
+}
+
+#profile-picture {
+    width: 150px;
+    right: 200px;
+    position: absolute;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 150px;
+    top: 170px;
+    left: 100px;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+}
+
+#nameDC{
+    display: flex;
+    margin-bottom: -30px;
+}
+
+#dcLogo {
+    height: 45px;
+    width: 45px;
+    margin-right: 12px;
+}
+
+#name {
+    width: 60%;  
+}
+
+#digitalcrafts {
+    width: 30%;
+}
+
+#job-title {
+    margin-bottom: -11px;
+    font-weight: lighter;
+}
+
+#home-town {
+    opacity: .5;
+}
+
+/* Buttons */
+#connect-button {
+    background-color: rgb(11, 101, 194);
+    color: white;
+    font-weight: bold;
+    
+    border-radius: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+#message-button {
+    background-color: white;
+    color: rgb(11, 101, 194);
+    font-weight: bold;
+    border-color: rgb(11, 101, 194);
+    border-radius: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#more-button {
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    border-color: gray;
+    border-radius: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* About section */
+.about {
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: -13px;
+    
+}
+
+#description-text {
+    padding-top: 25px;
+    margin-bottom: -5px;
+}
+
+/* Experience section */
+.experience-flex {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+#company-name {
+    margin-bottom: -20px;
+    font-weight: lighter;
+}
+
+#logo-pic {
+    height: 50px;
+    width: 50px;
+    order: 1;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+
+
+
+/* Skills sections */
+#skill-logo-pic {
+    height: 20px;
+    width: 20px;
+    order: 1;
+}
+
+#skill-location {
+    order: 2;
+    margin-top: 1px;
+    margin-left: 5px;
+    
+}
+
+.each-skill {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+#position {
+    margin-bottom: -20px;
+}
+
+#lighter-text {
+    opacity: .5;
+}
+
+#normal-text {
+    font-weight: lighter;
+    word-spacing: 1px;
+}
+
+.name-info {
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 5px;
+border-bottom: .5px solid lightgray;
+border-left: .5px solid lightgray;
+border-right: .5px solid lightgray;
+background-color: white;
+border-bottom-left-radius: 7px;
+border-bottom-right-radius: 7px;
+margin-bottom: -13px;
+}
+
+.languages,
+.skills,
+.education,
+.experience,
+.about {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    border-bottom: .5px solid lightgray;
+    border-left: .5px solid lightgray;
+    border-right: .5px solid lightgray;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: -13px;
+
+}
+
+
+
+a {
+    color: black;
+}
+
+
+.sidebar-left {
+    order: 1;
+    width: 45%;
+}
+
+.sidebar-right {
+    order: 3;
+    width: 45%;
+}
+
+
